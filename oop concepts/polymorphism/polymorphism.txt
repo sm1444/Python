@@ -1,0 +1,14 @@
+polymorphism
+
+types----
+1)compile time polymorphism
+    method overloading
+
+2)runtime polymorphism
+    method overriding
+
+
+python does not support method overloading.
+to solve the problem -- from cmd --pip install multipledispatch
+
+while writing the code from multipledispatch import dispatch
