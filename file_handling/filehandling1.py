@@ -1,0 +1,5 @@
+file = open("demo.txt","w")
+file.write("\nHello World")
+file.writelines(["\nHello World","\nHello World","\nHello World"])
+file.writelines(["100","200","300"])
+file.close()
