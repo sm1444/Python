@@ -6,8 +6,8 @@ print("largest element: ",arr.max())
 print("largest element: ",arr.max(axis=1)) #row index
 print("largest element: ",arr.max(axis=0)) #column index
 print("-----------------------")
-print("smallest element: ",arr.min()) #column index
-print("smallest element: ",arr.min(axis=1)) #column index
+print("smallest element: ",arr.min()) 
+print("smallest element: ",arr.min(axis=1)) #row index
 print("smallest element: ",arr.min(axis=0)) #column index
 print("-----------------------")
 print("Sum: ",arr.sum())
